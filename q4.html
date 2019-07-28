@@ -3,10 +3,34 @@
 
 <head>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+	<title>Q4</title>
+	<style type="text/css">
+		#no{
+			background-color: red;
+		}
+		#yes{
+			background-color: green;
+		}
+	</style>
+	<script type="text/javascript">
+		$('#no').click(function(){
+			$('.main').css({"backgroundColor", "#ff0000"});
+
+		});
+
+		$('#yes').click(function(){
+			$('.main').css({'backgroundColor', '#00ff00'});
+
+		});
+	</script>
 </head>
 
 <body>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+	<div class="main">Main div is here</div>
+	<input type="button" name="btn" value="Red" id="no">
+	<input type="button" name="btn" value="Green" id="yes">
+
 </body>
 
 </html>
